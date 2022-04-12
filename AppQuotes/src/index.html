@@ -12,7 +12,9 @@
 </head>
 
 <body>
-    <app-root></app-root>
+    app.get(’/*’, function(req, res) { res.sendFile(’index.html’, {root: 'dist/
+    <name-on-package.json>/’} ); });
+        <app-root></app-root>
 </body>
 
 </html>
