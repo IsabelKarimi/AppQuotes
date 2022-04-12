@@ -1,6 +1,7 @@
 <div class="container" text-center id="body">
-    <p id="headertxt"> Movie Quotes </p>    
-  <div class="row">
+    <p id="headertxt"> Movie Quotes </p>
+
+    <div class="row">
         <div class="col-md-6" id="quotes">
             <div class="quotations" *ngFor='let quote of quote; let i = index'>
 
@@ -10,6 +11,7 @@
                 <app-quote-detail *ngIf='quote.showauthor' (isComplete)='deleteQuote($event,i)' [quote]='quote'>
                 </app-quote-detail>
             </div>
+
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-5" id="formpart">

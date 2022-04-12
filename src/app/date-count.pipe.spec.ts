@@ -6,4 +6,3 @@ describe('DateCountPipe', () => {
     expect(pipe).toBeTruthy();
   });
 });
-

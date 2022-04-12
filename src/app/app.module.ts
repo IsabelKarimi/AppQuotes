@@ -9,7 +9,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { HighestvoteDirective } from './highestvote.directive';
+import { HighestvotesDirective } from './highestvotes.directive';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -19,9 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     QuoteDetailComponent,
     DateCountPipe,
     QuoteFormComponent,
-    HighestvoteDirective,
-    FooterComponent,
-    HighestvoteDirective
+    HighestvotesDirective,
+    FooterComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA],
   imports: [
