@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
-Author
+Author:
 Isabel Karimi
 
 ## Development server
@@ -31,4 +31,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 Contacts
-Email:
+Email: isabelkarimi7@gmail.com
+phone: 0713421711
