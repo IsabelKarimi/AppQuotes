@@ -1,16 +1,7 @@
 <div class="container" text-center id="body">
     <p id="headertxt"> Movie Quotes </p>
 
-    <div class="row">
-        <div class="col-md-6" id="quotes">
-            <div class="quotations" *ngFor='let quote of quote; let i = index'>
-
-                <p><i class="fa fa-quote-left" aria-hidden="true"></i><span style="font-weight: 700;">{{quote.message}}</span><i class="fa fa-quote-left" aria-hidden="true"></i></p>
-
-                <button type="button" class="btn btn-info" (click)='toggleDetails(i)'>Show More </button><br> said by: {{quote.author}}<br>created on:{{quote.createdDate|date}}<br>
-                <app-quote-detail *ngIf='quote.showauthor' (isComplete)='deleteQuote($event,i)' [quote]='quote'>
-                </app-quote-detail>
-            </div>
+    
 
         </div>
         <div class="col-md-1"></div>
